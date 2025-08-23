@@ -33,6 +33,4 @@ router.get("/:productId/values", getProductValues);
 // POST save parameter values
 router.post("/:productId/values", saveProductValues);
 
-router.put("/reorder", reorderProducts);
-
 export default router;
